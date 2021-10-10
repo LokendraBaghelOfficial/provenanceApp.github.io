@@ -63,13 +63,13 @@
                                       <tbody><tr><th>ID</th><td>QmNVdyQa352Ab54S9YeK4YUtHv3Xf9WBGfQG9pnTv9tiZe</td></tr>
                                           <tr><th>Status</th><td><span class="tag is-success">Valid</span></td>
                                       </tr><tr><th>Issuer</th><td>0x60E2b6b8257fB3501c1a2dD6d156aD430688ff76</td></tr>
-                                      <tr><th>Type</th><td class="has-wrap">VerifiableCredential, https://open.provenance.org/ontology/ptf/v2/CertificationCredential</td></tr>
+                                      <tr><th>Type</th><td class="has-wrap">VerifiableCredential, https://copperwire.io/ontology/ptf/v2/CertificationCredential</td></tr>
                                       <tr><th>Valid From</th><td>-</td></tr>
                                       <tr><th>Valid Until</th><td>2021-12-01</td></tr>
                                       <tr>
                                           <th>Subject(s)</th>
                                           <td>
-                                            <a href="https://www.provenance.org/products/princes-tuna-mauritius-princes-tuna-sfo-8x3x145g-msc">https://www.provenance.org/products/princes-tuna-mauritius-princes-tuna-sfo-8x3x145g-msc</a>
+                                            <a href="https://www.provenance.org/products/princes-tuna-mauritius-princes-tuna-sfo-8x3x145g-msc">https://www.copperwire.io/products/princes-tuna-mauritius-princes-tuna-sfo-8x3x145g-msc</a>
                                           </td>
                                       </tr>
                                   </tbody></table>
@@ -85,7 +85,7 @@
                                   <p><strong>0x60E2b6b8257fB3501c1a2dD6d156aD430688ff76</strong> is making the following claim(s):</p>
                                   <div class="message is-success">
                                       <div class="message-body">
-                                          <a href="https://www.provenance.org/products/princes-tuna-mauritius-princes-tuna-sfo-8x3x145g-msc">https://www.provenance.org/products/princes-tuna-mauritius-princes-tuna-sfo-8x3x145g-msc</a> has the <strong>certification</strong> <a href="https://www.provenance.org/products/princes-tuna-mauritius-princes-tuna-sfo-8x3x145g-msc">https://www.provenance.org/certification-marks/msc</a>.
+                                          <a href="https://www.provenance.org/products/princes-tuna-mauritius-princes-tuna-sfo-8x3x145g-msc">https://www.copperwire.io/products/princes-tuna-mauritius-princes-tuna-sfo-8x3x145g-msc</a> has the <strong>certification</strong> <a href="https://www.provenance.org/products/princes-tuna-mauritius-princes-tuna-sfo-8x3x145g-msc">https://www.copperwire.io/certification-marks/msc</a>.
                                       </div>
                                   </div>
                               </section>
@@ -150,7 +150,7 @@
                                   <p>The type of a proof point tells us the nature of the statement being made.</p>
                                   <div class="message is-info">
                                   <div class="message-body">
-                                      <h3>https://open.provenance.org/ontology/ptf/v2/CertificationCredential</h3>
+                                      <h3>https://copperwire.oi/ontology/ptf/v2/CertificationCredential</h3>
                                   </div>
                                   </div>
                                   <p>You can read more about what this type of proof point means in the <a href="/developers/specification">Proof Points Specification</a><a>.</a></p><a>
@@ -187,22 +187,22 @@
                               <pre class="prettyprint prettyprinted" style=""><code><span class="pun">{</span><span class="pln">
                         </span><span class="str">"@context"</span><span class="pun">:</span><span class="pln"> </span><span class="pun">[</span><span class="pln">
                           </span><span class="str">"https://www.w3.org/2018/credentials/v1"</span><span class="pun">,</span><span class="pln">
-                          </span><span class="str">"https://provenance.org/ontology/ptf/v2"</span><span class="pln">
+                          </span><span class="str">"https://copperwire.io/ontology/ptf/v2"</span><span class="pln">
                         </span><span class="pun">],</span><span class="pln">
                         </span><span class="str">"credentialSubject"</span><span class="pun">:</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
-                          </span><span class="str">"hasCertification"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"https://www.provenance.org/certification-marks/msc"</span><span class="pun">,</span><span class="pln">
-                          </span><span class="str">"id"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"https://www.provenance.org/products/princes-tuna-mauritius-princes-tuna-sfo-8x3x145g-msc"</span><span class="pln">
+                          </span><span class="str">"hasCertification"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"https://www.copperwire.io/certification-marks/msc"</span><span class="pun">,</span><span class="pln">
+                          </span><span class="str">"id"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"https://www.copperwire.io/products/princes-tuna-mauritius-princes-tuna-sfo-8x3x145g-msc"</span><span class="pln">
                         </span><span class="pun">},</span><span class="pln">
                         </span><span class="str">"issuer"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"0x60E2b6b8257fB3501c1a2dD6d156aD430688ff76"</span><span class="pun">,</span><span class="pln">
                         </span><span class="str">"proof"</span><span class="pun">:</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
                           </span><span class="str">"proofPurpose"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"assertionMethod"</span><span class="pun">,</span><span class="pln">
                           </span><span class="str">"registryRoot"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"0x6B0BA734C15FAD964911D9b15e6DAB1A92967AF5"</span><span class="pun">,</span><span class="pln">
-                          </span><span class="str">"type"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"https://open.provenance.org/ontology/ptf/v2/ProvenanceProofType1"</span><span class="pun">,</span><span class="pln">
+                          </span><span class="str">"type"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"https://copperwire.io/ontology/ptf/v2/CopperwireProofType1"</span><span class="pun">,</span><span class="pln">
                           </span><span class="str">"verificationMethod"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"0x60E2b6b8257fB3501c1a2dD6d156aD430688ff76"</span><span class="pln">
                         </span><span class="pun">},</span><span class="pln">
                         </span><span class="str">"type"</span><span class="pun">:</span><span class="pln"> </span><span class="pun">[</span><span class="pln">
                           </span><span class="str">"VerifiableCredential"</span><span class="pun">,</span><span class="pln">
-                          </span><span class="str">"https://open.provenance.org/ontology/ptf/v2/CertificationCredential"</span><span class="pln">
+                          </span><span class="str">"https://copperwire.io/ontology/ptf/v2/CertificationCredential"</span><span class="pln">
                         </span><span class="pun">],</span><span class="pln">
                         </span><span class="str">"validUntil"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"2021-12-01"</span><span class="pln">
                       </span><span class="pun">}</span></code></pre>
